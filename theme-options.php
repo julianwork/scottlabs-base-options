@@ -17,6 +17,7 @@
 		register_setting( 'scottlabs-settings-group' , 'scottlabs_blog' );
 		register_setting( 'scottlabs-settings-group' , 'scottlabs_tripadviser' );
 		register_setting( 'scottlabs-settings-group' , 'scottlabs_footeraddress');
+		register_setting( 'scottlabs-settings-group' , 'scottlabs_woeid' );
 	}
 	function scottlabs_settings_page()
 	{
@@ -84,7 +85,16 @@
 	<input type="textarea" name="scottlabs_footeraddress" value="<?php print get_option('scottlabs_footeraddress');?>" />
 	</td>
 	</tr>
-			
+	
+	<!--WEATHER LOCATION ID-->
+	<tr valign="top">
+	<th scope="row">Weather Location ID:</th>
+	<td>
+	<input type="text" name="scottlabs_woeid" value="<?php print get_option('scottlabs_woeid');?>" />
+	</td>
+	</tr>
+	
+				
 	<!--SUBMIT YOUR CHANGES TO THE MIGHTY DATABASE RAAAAARRRRRR!!!!!!!!! -->
 	<p class="submit">
 	<input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
