@@ -48,8 +48,8 @@
 	<tr>
 	<th scope="row">Google Analytics Code:</th>
 	<td>
-	<textarea name="scottlabs_analytics"><?php print
-	get_option('scottlabs_analytics'); ?></textarea>
+	<textarea name="scottlabs_analytics"><?php print get_option('scottlabs_analytics'); ?></textarea>
+	
 	</td>
 	</tr>
 	
@@ -82,7 +82,7 @@
 	<tr valign="top">
 	<th scope="row">Footer information:</th>
 	<td>
-	<input type="textarea" name="scottlabs_footeraddress" value="<?php print get_option('scottlabs_footeraddress');?>" />
+	<textarea name="scottlabs_footeraddress" value="<?php print get_option('scottlabs_footeraddress');?>" </textarea>
 	</td>
 	</tr>
 	
