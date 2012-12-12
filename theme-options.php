@@ -52,7 +52,7 @@
 	get_option('scottlabs_analytics'); ?></textarea>
 	</td>
 	</tr>
-	</table>
+	
 	
 	<!--YOUTUBE-->
 	<tr valign="top">
@@ -93,6 +93,7 @@
 	<input type="text" name="scottlabs_woeid" value="<?php print get_option('scottlabs_woeid');?>" />
 	</td>
 	</tr>
+	</table>
 	
 				
 	<!--SUBMIT YOUR CHANGES TO THE MIGHTY DATABASE RAAAAARRRRRR!!!!!!!!! -->
