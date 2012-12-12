@@ -4,7 +4,7 @@
 	
 	function scottlabs_create_menu()
 	{ //create new submenu
-		add_submenu_page( 'themes.php' , 'scottlabs theme options' , 'scottlabs options' , 'administrator' , __FILE__, 'scottlabs_landing_settings_page');
+		add_submenu_page( 'themes.php' , 'scottlabs theme options' , 'scottlabs options' , 'administrator' , __FILE__, 'scottlabs_settings_page');
 	 //call register settings function
 		add_action( 'admin_init' , 'scottlabs_register_settings' );
 	}
